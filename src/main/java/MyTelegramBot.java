@@ -15,7 +15,7 @@ public class MyTelegramBot extends TelegramLongPollingBot {
     private final String BOT_NAME;
     private final String BOT_TOKEN;
     private final String URL = "https://api.nasa.gov/planetary/apod" +
-            "?api_key=nQ11SkjNL0ddyAl6Yd97vw6DCH05VOMVDgQeP36c";
+            "?api_key=";
     private Object msg;
 
     public MyTelegramBot(String BOT_NAME, String BOT_TOKEN) throws TelegramApiException {
